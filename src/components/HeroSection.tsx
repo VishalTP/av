@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="relative min-h-[88vh] md:min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center overflow-hidden">
       <img
         src={heroImage}
         alt="Romantic portrait of Arya and Vishal, wedding couple"
