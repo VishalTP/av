@@ -29,7 +29,7 @@ useEffect(() => {
       { name: "Aysha", message: "Congratulations! May your marriage be filled with endless joy and beautiful moments." },
       { name: "Ishu", message: "Best wishes for a wonderful wedding and an even more wonderful marriage!" },
       { name: "Shanu", message: "May your love story continue to inspire everyone around you. Congratulations!" },
-      { name: "Philipe", message: "Wishing you both all the happiness in the world on your special day!" },
+      { name: "Philip", message: "Wishing you both all the happiness in the world on your special day!" },
     ].map((p) => ({
       id: crypto.randomUUID(),
       name: p.name,
