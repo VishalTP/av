@@ -24,17 +24,17 @@ useEffect(() => {
     setWishes(JSON.parse(raw));
   } else {
     const presets = [
-      { name: "Jain", message: "Wishing you both a lifetime of love and happiness! Can't wait to celebrate with you." },
-      { name: "Farheen", message: "So excited for your special day! You two are perfect for each other." },
-      { name: "Aysha", message: "Congratulations! May your marriage be filled with endless joy and beautiful moments." },
-      { name: "Ishu", message: "Best wishes for a wonderful wedding and an even more wonderful marriage!" },
-      { name: "Shanu", message: "May your love story continue to inspire everyone around you. Congratulations!" },
-      { name: "Philip", message: "Wishing you both all the happiness in the world on your special day!" },
+      { name: "Jain", message: "Wishing you both a lifetime of love and happiness! Can't wait to celebrate with you." at: '2025-08-19 12:03:11' },
+      { name: "Farheen", message: "So excited for your special day! You two are perfect for each other.", at: '2025-08-16 17:25:54' },
+      { name: "Aysha", message: "Congratulations! May your marriage be filled with endless joy and beautiful moments.", at: '2025-08-16 06:05:33' },
+      { name: "Ishu", message: "Best wishes for a wonderful wedding and an even more wonderful marriage!", at: '2025-08-14 20:57:00' },
+      { name: "Shanu", message: "May your love story continue to inspire everyone around you. Congratulations!", at: '2025-08-14 09:18:14' },
+      { name: "Philip", message: "Wishing you both all the happiness in the world on your special day!", at: '2025-08-13 10:05:24' },
     ].map((p) => ({
       id: crypto.randomUUID(),
       name: p.name,
       message: p.message,
-      at: Date.now(),
+      at: new Date(p.at).toLocaleString(),
     }));
     setWishes(presets);
   }
