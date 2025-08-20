@@ -51,7 +51,7 @@ const HeroSection: React.FC = () => {
                 <div className="text-2xl md:text-3xl font-semibold mt-1">Arya & Vishal</div>
               </CardHeader>
               <CardContent className="space-y-2 text-center">
-                <div className="text-lg">Saturday, August 31, 2025</div>
+                <div className="text-lg">Sunday, August 31, 2025</div>
                 <div className="text-lg">10:00 AM</div>
                 <div className="text-base">Balakrishna Auditorium</div>
                 <div className="text-base">Guruvayur, Trissur, Kerala</div>
